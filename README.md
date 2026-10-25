@@ -6,3 +6,5 @@ Made primarily to help newcomers to the FAU HS coding club but it isn't a school
 Also I'd say am a beginner at coding myself so dont expect anything advanced 😭
 
 Also to go to website go to [here](https://pavpavpavpav.github.io/basiccodingtutssitething/)
+
+Report any typos to me via discord: 0pav_ (user)!
