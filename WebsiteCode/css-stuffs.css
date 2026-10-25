@@ -10,6 +10,13 @@ h1 {
 h2 {
     font-size: 32px;
 }
+h3 {
+    font-size: 26px;
+}
+
+dt {
+    font-weight: 600;
+}
 
 .sidenav {
     margin-left: 1vw;
