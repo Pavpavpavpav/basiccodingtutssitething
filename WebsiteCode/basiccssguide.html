@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Basic CSS guide - Pav's coding guide</title>
+        <link rel="stylesheet" href="css-stuffs.css">
+    </head>
+    <div class="sidenav">
+            <div class="nav">
+            <p>Pav's Coding Guide</p>
+            <a href ="../index.html">Home</a>
+
+            <p>Setup</p>
+            <a href="Githubsetup.html">Github Setup</a> <br>
+            <a href="EditorSetup.html">Editor Setup</a> <br>
+
+            <p>HTML & CSS</p>
+            <a href="basichtmlguide.html">Basic HTML </a> <br>
+            <a href="#">Basic CSS </a> <br>
+
+            <p>C++</p>
+            <a href="#">C++ Libraries</a> <br>
+            <a href="#">Basic C++</a> <br>
+        </div>
+        <div class="footer">
+            <p font-size="15px">Made by Pav, 2026</p>
+        </div>
+    </div>
+
+    <!-- ritwickdey.LiveServer -->
+
+    <div class="main">
+        <h1>Basic CSS Guide</h1>
+        <h2>This part will teach you how to style your beginner HTML website with CSS</h2>
+        <hr><br><br>
+
+        <p>CSS is a programming language used to style HTML websites. It allows for the addition for colors and other elements instead of being plain white text on a white background.</p>
+        <p>This website uses basic CSS so it doesnt look like plain white text!</p>
+        <br>
+
+        <h2>Editor Setup</h2>
+        <p>Like HTML, many editors, including Visual Studio Code, can edit CSS code without any extensions, but you can install extensions for QoL (QoL is short for Quality of Life)</p>
+        <br>
+        <div class="textimage"><p class="text">In order to edit CSS code, you must create a file in the same folder like you would do for HTML, just with .css (it is possible to do it all in one file but it is more organized in multiple). For the css to have effect on your website, you have to link it to the document using &lt;link rel="stylesheet" href="inputcssfilehere"&gt; (no closing tag is needed) </p><div class="picture-box" ><img src="https://placehold.co/600x400" style="float:right" alt="cat"><p>Placeholder</p></div></div>
+        <br><br>
+
+        <h2>How to CSS</h2>
+        <p>There are two main ways to apply CSS styling to HTML elements: by assigning it to a class or a whole element. If the selector starts with a . (.class1), it only applies to elements that have stated to be a part of that class (&lt;p class="example"&gt;). Another way to style an element is to make the selector be a HTML tag, where every tag in the code will be affected by the style even if it isnt declared (p {} ) </p>
+        <br>
+
+        <pre class="codebox"><code>
+            p {
+                (Style put here affects every p tag)
+            }
+            
+            .example {
+                (Style put here affects every HTML tag that puts it in the class="" section)
+            }
+        </code></pre>
+        <br>
+
+        <p>It is also possible for a selector to only apply style to tags that happen to be inside another set of tags that are influenced by a specific class (.example p), used mostly with &lt;div&gt; tags, but that is a bit more advanced.</p>
+        <br><br>
+
+        <h2>Example of CSS</h2>
+        <div class="textimage"><div class="picture-box" ><img src="https://placehold.co/600x400" alt="cat"><p>Placeholder</p></div><p class="text">In order to make your HTML look better, a simple css sheet can be written. Using the css code shown on the left of this text, the sample website from the <a href="basichtmlguide.html">HTML Guide</a> can be modified to look better. The code for the css and the modified website that integrates it can be found in the WebsiteCode folder in the <a href="https://github.com/Pavpavpavpav/basiccodingtutssitething"> repository for this project.</a></p></div>
+        <br>
+        <div class="textimage"><p class="text">On the right, you can see the modified website after CSS has been applied to it. As seen, we can edit the color of our text, the color of the background and even the size of our elements (shown with the picture not taking up half a page).  In this example, I have used two selectors that apply only to specific elements which declared them (class="green", class="red"), and two that apply to every element on the page that share the same tag. There are a lot other options for customization that can be modified alongside the ones listed in the example, some of which will be listed below.</p><div class="picture-box" ><img src="https://placehold.co/600x400" style="float:right" alt="cat"><p>Placeholder</p></div></div>
+        <br><br>
+
+        <h2>CSS Declaration list</h2>
+        <p>The statements that influence the style of HTML are called Declarations. Below is a list of them that one might find useful when using CSS to style their first Website.</p>
+        <br>
+
+        <dl>
+            <dt>align-content</dt>
+            <dd>Makes the conent in a div be centered in it (can be used for centered text if the width of the div is the same of the website)</dd>
+            <dt>background-color</dt>
+            <dd>Changes the color of the background of an element, if used in the body tag, it can change the background color of the entire website</dd>
+            <dt>background-image</dt>
+            <dd>Sets the background to be a preset image instead of a solid color</dd>
+            <dt>border</dt>
+            <dd>Adds a border to the element it is applied to</dd>
+            <dt>border-color</dt>
+            <dd>Sets the color of the border of the element it is applied to</dd>
+            <dt>color</dt>
+            <dd>Sets the color of text inside the element it is applied to</dd>
+            <dt>font-family</dt>
+            <dd>Can be used to set the font of the text in an element, use an css extension that autocompletes the statements in order to be able to pick between a lot of them without manually searching</dd>
+            <dt>font-weight</dt>
+            <dd>Specifies the weight of the font (thickness). 600 is bold text</dd>
+            <dt>height</dt>
+            <dd>Specifies the height of an element</dd>
+            <dt>margin</dt>
+            <dd>When combined with "-top, -left, -right, or -bottom", it specifies the distance the element should be from other elements</dd>
+            <dt>padding</dt>
+            <dd>Same as a margin, but it specifies the distance the content of the element should be from its borders (works without using the border declaration too)</dd>
+            <dt>text-decoration</dt>
+            <dd>Adds decoration to the text, such as an <u>underline</u></dd>
+            <dt>width</dt>
+            <dd>Sets the width of the element, used with height.</dd>
+        </dl>
+
+
+    </div>
+</html>
